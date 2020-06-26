@@ -31,7 +31,7 @@ export const Input = styled.TextInput.attrs({
 
 export const Button = styled(RectButton)`
   height: 56px;
-  background: #a1cdf4;
+  background: #262730;
   border-radius: 5px;
   justify-content: center;
   align-items: center;
@@ -49,7 +49,7 @@ export const CardButton = styled.TouchableOpacity``;
 export const Card = styled.View`
   width: 100%;
   height: 120px;
-  background: #c9cad9;
+  background: #333;
   border-radius: 6px;
   justify-content: center;
   padding-horizontal: 35px;
@@ -61,10 +61,12 @@ export const StateName = styled.Text`
   font-size: 19px;
   font-weight: bold;
   flex-direction: row;
+  color: #fff;
 `;
 
 export const StatePreInfo = styled.Text`
   font-size: 14px;
   font-weight: bold;
   margin-top: 4px;
+  color: #fff;
 `;
